@@ -128,10 +128,10 @@ if __name__ == '__main__':
             globals()[args[1]](*args[2:])
     except Exception as e:
         s = """Usage :-
-$ ./todo add "todo item"  # Add a new todo
-$ ./todo ls               # Show remaining todos
-$ ./todo del NUMBER       # Delete a todo
-$ ./todo done NUMBER      # Complete a todo
-$ ./todo help             # Show usage
-$ ./todo report           # Statistics"""
+$ todo.py add "todo item"  # Add a new todo
+$ todo.py ls               # Show remaining todos
+$ todo.py del NUMBER       # Delete a todo
+$ todo.py done NUMBER      # Complete a todo
+$ todo.py help             # Show usage
+$ todo.py report           # Statistics"""
         sys.stdout.buffer.write(s.encode('utf8'))
