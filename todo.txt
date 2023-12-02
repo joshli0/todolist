@@ -1,0 +1,5 @@
+add project to github
+add project to resume
+update resume on linkedin
+apply to jobs
+practice on leetcode
